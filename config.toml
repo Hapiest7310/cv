@@ -1,0 +1,77 @@
+[layout]
+# Main vertical layout (NAME, MIDDLE, PROJECTS)
+name_height = 7
+middle_height = 22  # 0 = auto fill, >0 = fixed height
+projects_height = 0  # 0 = auto fill, >0 = fixed height
+
+# Middle horizontal layout (LEFT, RIGHT)
+image_width = 25  # 0 = auto fill, >0 = fixed width
+right_width = 0  # 0 = auto fill, >0 = fixed width
+
+# Left vertical layout (IMAGE, SKILLS)
+image_height = 12
+skills_height = 0  # 0 = auto fill, >0 = fixed height
+
+# Right vertical layout (ABOUT, EDUCATION, CONTACTS)
+about_height = 0  # 0 = auto fill, >0 = fixed height
+education_height = 4  # 0 = auto fill, >0 = fixed height
+contacts_height = 6
+
+# Gaps
+skills_gap = 0
+contacts_gap = 0
+
+[projects]
+# Individual project heights - set to 0 to disable a project
+project_1_height = 4
+project_2_height = 6
+project_3_height = 6
+project_4_height = 6
+project_5_height = 0
+project_6_height = 0
+project_7_height = 0
+project_8_height = 0
+project_9_height = 0
+project_10_height = 0
+
+[colors]
+border_r = 241
+border_g = 83
+border_b = 41
+
+border_sub_r = 59
+border_sub_g = 129
+border_sub_b = 125
+
+title_r = 243
+title_g = 164
+title_b = 101
+
+title_sub_r = 151
+title_sub_g = 181
+title_sub_b = 178
+
+text_r = 255
+text_g = 255
+text_b = 255
+
+text_sub_r = 151
+text_sub_g = 181
+text_sub_b = 178
+
+bg_r = 0
+bg_g = 0
+bg_b = 0
+
+image_bg_r = 20
+image_bg_g = 20
+image_bg_b = 20
+
+[gradient]
+top_r = 59
+top_g = 129
+top_b = 125
+
+bottom_r = 151
+bottom_g = 181
+bottom_b = 178
